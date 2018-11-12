@@ -2,6 +2,7 @@
   This is a mine sweeper game, it used [diff-dom](https://github.com/chejianchao/diff-dom) to render changed DOM only.
 
 # Demo
+  [Click To Play](https://static-project.herokuapp.com/mine-sweeper/index.html)  
   ![picture](https://media.giphy.com/media/39onL30N9A5TJVhIMh/giphy.gif)
   
 # How to play

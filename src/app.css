@@ -1,0 +1,56 @@
+
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 0px;
+
+  border: 0px solid gray;
+}
+
+.container {
+  margin: auto;
+  width: 840px;
+  height: 700px;
+}
+.legend {
+  margin-left: 1rem;
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+}
+.cell {
+  //height: 40px;
+  width: 40px;
+  font-size: 4vh;
+  cursor: pointer;
+  border: 0px solid black;
+}
+
+.action-btn {
+  cursor: pointer;
+  margin-bottom: 10px;
+  background-color: transparent;
+  width: 100%;
+  display: block;
+  font-size: 1.2em;
+  padding: 10px;
+  border: 1px solid #eee;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.action-btn:hover {
+  background-color: #f4f4f4;
+}
+.action-btn .emoji {
+  width: 20px;
+  height: 20px;
+}

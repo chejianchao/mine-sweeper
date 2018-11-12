@@ -1,0 +1,18 @@
+{
+  "name": "mine-sweeper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src --out-file ./build/compiled.js"
+  },
+  "author": "Eric",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
